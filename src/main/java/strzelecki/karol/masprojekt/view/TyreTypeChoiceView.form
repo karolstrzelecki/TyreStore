@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="strzelecki.karol.masprojekt.view.TyreTypeChoiceView">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="1024" height="768"/>
+    </properties>
+    <border type="bevel-lowered"/>
+    <children>
+      <component id="5c651" class="javax.swing.JButton" binding="carTyres">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Opony Samochodowe"/>
+        </properties>
+      </component>
+      <component id="25643" class="javax.swing.JButton" binding="motrocycleTyres">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Opony Motocyklowe"/>
+        </properties>
+      </component>
+      <component id="77861" class="javax.swing.JButton" binding="exit">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Wyjdź"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="strzelecki.karol.masprojekt.view.MotorcycleTyresParametersChoiceView">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="1024" height="768"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="c405c">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3d3a9" class="javax.swing.JButton" binding="exitButton">
+            <constraints/>
+            <properties>
+              <text value="Wróć"/>
+            </properties>
+          </component>
+          <hspacer id="85c64">
+            <constraints/>
+          </hspacer>
+          <component id="bf777" class="javax.swing.JButton" binding="confirmButton">
+            <constraints/>
+            <properties>
+              <text value="Wybierz"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="61ca7">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e7df4" class="javax.swing.JButton" binding="tubeTyresButton">
+            <constraints/>
+            <properties>
+              <text value="Opony Detkowe"/>
+            </properties>
+          </component>
+          <component id="ab7b2" class="javax.swing.JButton" binding="tubelessTyresButton">
+            <constraints/>
+            <properties>
+              <text value="Opony Bezdętkowe"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <toolbar id="e08cf">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="37a71" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Średnica"/>
+            </properties>
+          </component>
+          <component id="9c20" class="javax.swing.JComboBox" binding="rimBox">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="c3e6" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Szerokosc"/>
+            </properties>
+          </component>
+          <component id="ef315" class="javax.swing.JComboBox" binding="widthBox">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="1e60b" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Profil"/>
+            </properties>
+          </component>
+          <component id="d14da" class="javax.swing.JComboBox" binding="aspectRatioBox">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </toolbar>
+      <component id="9bec5" class="javax.swing.JLabel" binding="jLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
